@@ -1,0 +1,22 @@
+.auth {
+  &__check {
+    display: flex;
+    align-items: center;
+  }
+  &__question {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-right: 5px;
+  }
+  &__link {
+    color: $green;
+    line-height: 1.2;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition: border-color;
+    &:focus,
+    &:active {
+      border-color: $green;
+    }
+  }
+}

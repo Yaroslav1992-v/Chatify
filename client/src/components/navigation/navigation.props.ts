@@ -1,0 +1,6 @@
+import { ReactElement } from "react";
+import { ReturnProps } from "./../return-arrow/return.props";
+export interface NavigationProps {
+  where: string;
+  title?: string;
+}
