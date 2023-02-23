@@ -7,6 +7,8 @@ import "./styles/index.scss";
 import Privacy from "./pages/rules/Privacy";
 
 import { Auth } from "./pages/Auth/Auth";
+import { Main } from "./pages/main/Main";
+import { Chat } from "./pages/Chat/Chat";
 function App() {
   return (
     <>
@@ -18,6 +20,8 @@ function App() {
         <Route path="terms" element={<Terms />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="login" element={<Auth />} />
+        <Route path="main" element={<Main />} />
+        <Route path="chat" element={<Chat />} />
         <Route />
       </Routes>
     </>

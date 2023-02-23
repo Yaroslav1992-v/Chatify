@@ -14,6 +14,9 @@
   &-large {
     max-width: 320px;
   }
+  &-small {
+    max-width: 200px;
+  }
   &:focus,
   &:active {
     border-color: $blue;

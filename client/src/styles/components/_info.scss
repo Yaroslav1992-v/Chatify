@@ -1,0 +1,33 @@
+.status {
+  display: flex;
+  align-items: center;
+  &__box {
+    display: block;
+  }
+  &__update {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: $roboto;
+  }
+}
+.chats {
+  display: flex;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__date {
+    font-family: $roboto;
+  }
+}

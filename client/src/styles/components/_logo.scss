@@ -2,4 +2,10 @@
   height: 210px;
   width: 210px;
   margin-bottom: 85px;
+  &-small {
+    height: 105px;
+    width: 105px;
+    margin-bottom: 35px;
+    opacity: 0.5;
+  }
 }

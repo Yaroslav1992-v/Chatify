@@ -10,5 +10,7 @@ export const Title = ({ tag, children }: TitleProps): JSX.Element => {
       return <h2 className="title-h2">{children}</h2>;
     case "h3":
       return <h3 className="title-h3">{children}</h3>;
+    case "name":
+      return <span className="name">{children}</span>;
   }
 };

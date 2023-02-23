@@ -12,3 +12,40 @@
     display: flex;
   }
 }
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+  &__searchBtn {
+    margin-right: 20px;
+  }
+  &__dots {
+    width: 7px;
+    height: 7px;
+    background-color: $black;
+    border-radius: 50%;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: $black;
+      right: 0;
+    }
+    &::before {
+      top: 9px;
+    }
+    &::after {
+      bottom: 9px;
+    }
+  }
+}
